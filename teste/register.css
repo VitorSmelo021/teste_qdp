@@ -10,16 +10,13 @@ body{
     display: flex; 
 }
 .lado_esquerdo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     height: 100%;
     background: linear-gradient(0deg, #19A3A6 16.31%, #03355A 100%);
     box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25) inset;
-}
-.image{
-    display: flex;
-    padding: 100px;
-    justify-content: center;
-    align-items: center;
 }
 .lado_direito{
     width: 50%;
@@ -37,7 +34,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    font-size: 36px;
+    font-size: 46px;
     font-family: Poppins;
     font-weight: 600;
     display: flex;
@@ -51,13 +48,24 @@ body{
     justify-content: center;
     align-items: center;
 }
+.form p{
+    display: flex;
+    text-align: center;
+    color: #686868;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+.form a{
+    text-decoration: none;
+}
 .email_senha{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 35px;
 }
 .nome{
-    width: 300px;
+    width: 350px;
     height: 50px;
     background-image: url("./image/pessoa.svg");
     background-position: 10px;
@@ -77,7 +85,7 @@ body{
     font-size: 16px;
 }
 .email{
-    width: 300px;
+    width: 350px;
     height: 50px;
     background-image: url("./image/Vector\ \(1\).svg");
     background-position: 10px;
@@ -97,7 +105,7 @@ body{
     font-size: 16px;
 }
 .password{
-    width: 300px;
+    width: 350px;
     height: 50px;
     display: flex;
     background-image: url("./image/lock.svg");
@@ -128,7 +136,7 @@ body{
     color: #10768D;
 }
 .entrar{
-    width: 300px;
+    width: 380px;
     height: 50px;
     border-radius: 50px;
     margin-top: 20px;

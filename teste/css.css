@@ -12,15 +12,13 @@ body{
 .lado_esquerdo{
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(0deg, #19A3A6 16.31%, #03355A 100%);
     box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25) inset;
 }
-.image{
-    display: flex;
-    padding: 100px;
-    justify-content: center;
-    align-items: center;
-}
+
 .lado_direito{
     width: 50%;
     height: 100%;
@@ -37,7 +35,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    font-size: 36px;
+    font-size: 46px;
     font-family: Poppins;
     font-weight: 600;
     display: flex;
@@ -57,7 +55,7 @@ body{
     gap: 50px;
 }
 .email{
-    width: 300px;
+    width: 350px;
     height: 50px;
     background-image: url("./image/Vector\ \(1\).svg");
     background-position: 10px;
@@ -77,7 +75,7 @@ body{
     font-size: 16px;
 }
 .password{
-    width: 300px;
+    width: 350px;
     height: 50px;
     display: flex;
     background-image: url("./image/lock.svg");
@@ -101,17 +99,18 @@ body{
     text-align: center;
     color: #686868;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 .form a{
     color: #10768D;
+    text-decoration: none;
 }
 .entrar{
-    width: 300px;
+    width: 380px;
     height: 50px;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
     background: #10768D;
     color: #FFF;
     border: none;
